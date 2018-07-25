@@ -5,5 +5,6 @@ class CreateCoupons < ActiveRecord::Migration
       t.string :store
 
       t.timestamps null: false
+    end
   end
 end
